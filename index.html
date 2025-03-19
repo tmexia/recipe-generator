@@ -3,7 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Yummy recipes for tummies!</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Yummy recipes for tummies!</h1>
+      <h2>Recipes to prepare and eat with children</h2>
+    </header>
+    <main>
+      <form id="recipe-generator-form">
+        <input
+          class="ingredient-input"
+          id="ingredient-input"
+          type="text"
+          placeholder="Choose one ingredient to start cooking"
+          autofocus
+          required
+          autocomplete="off"
+        />
+        <div class="ingredient-example">for example, bananas, honey, beans</div>
+        <input class="button" type="submit" />
+      </form>
+      <div class="recipe-container" id="poem">Cooking your recipe!</div>
+    </main>
+    <footer>
+      This AI project was coded by
+      <a href="https://github.com/tmexia" target="_blank">Teresa Mexia</a>, is
+      <a href="https://github.com/tmexia/recipe-generator" target="_blank"
+        >open-sourced on GitHub</a
+      >
+      and is
+      <a
+        href="https://mexia-yummy-recipes-for-tummies.netlify.app/"
+        target="_blank"
+        >hosted on Netlify</a
+      >.
+      <br />
+      Color palette from
+      <a href="">Color Hunt</a>.
+    </footer>
+    <script src="src/script.js"></script>
+  </body>
 </html>
