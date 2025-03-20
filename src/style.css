@@ -62,6 +62,11 @@ form {
   padding: 10px;
 }
 
+.button:hover {
+  background-color: #6c3fb5;
+  color: white;
+}
+
 .recipe-container {
   background-color: #89ac46;
   color: white;
@@ -74,6 +79,10 @@ form {
   font-family: Georgia, "Times New Roman", Times, serif;
   line-height: 30px;
   font-size: 18px;
+}
+
+.waiting {
+  display: none;
 }
 
 footer {
